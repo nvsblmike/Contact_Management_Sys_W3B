@@ -6,8 +6,25 @@
     <meta name="description" content="The Contact Management System is a web application designed to help users efficiently organize and maintain their contacts.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Contact Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="images/x-icon">
 </head>
 <body>
+    <h1>Your Contact Managment System</h1>
+
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input name="name" id="name" type="text" required>
+        <label for="email">Email:</label>
+        <input name="email" id="email" type="email" required>
+        <label for="phone">Phone No:</label>
+        <input name="phone" id="phone" type="tel" pattern="[0-9]{10}" required>
+        <button type="submit" onclick="addContact()">Add Contact</button>
+    </form>
+
+    <h2>Contact List</h2>
+    <ul id="contactList"></ul>
+
     
 </body>
 </html>
