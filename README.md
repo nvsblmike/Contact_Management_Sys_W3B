@@ -1,2 +1,5 @@
-# Contact_Management_Sys_W3B
- The Contact Management System is a web application designed to help users efficiently organize and maintain their contacts.
+# HNG Internship - DevOps Track
+Profile Information
+Name: Alese Michael
+Email: alesemichael641@gmail.com
+Username: nvsblmike
