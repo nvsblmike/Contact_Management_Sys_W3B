@@ -1,65 +1,75 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-h1, h2 {
-    color: #333;
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
-form {
-    max-width: 400px;
-    margin-bottom: 20px;
+main {
+    padding: 20px;
+    text-align: center;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
+.intro {
+    margin-bottom: 40px;
 }
 
-input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #0066cc;
     color: white;
-    padding: 10px 15px;
     border: none;
+    padding: 10px 20px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #004c99;
 }
 
-ul {
-    list-style-type: none;
+.profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+.profile h2 {
+    margin-top: 0;
+}
+
+.profile ul {
+    list-style: none;
     padding: 0;
 }
 
-li {
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
+.profile ul li {
+    margin: 10px 0;
 }
 
-li:last-child {
-    border-bottom: none;
-}
-
-button {
-    background-color: #f44336;
+footer {
+    background-color: #333;
     color: white;
-    padding: 5px 10px;
-    margin-left: 5px;
-}
-
-button:hover {
-    background-color: #d32f2f;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
